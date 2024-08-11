@@ -10,29 +10,29 @@
     <div class="container">
         <header>
             <h1>Welcome to Our Wildlife Website</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#" class="active"><b>Home</b></a></li>
-                        <li><a href="#"><b>Our Team</b></a></li>
-                        <li><a href="#"><b>Projects</b></a></li>
-                        <li><a href="#"><b>Blogs</b></a></li>
-                    </ul>
-                    <form action="search" method="get" class="search-form">
-                        <input type="text" name="search" placeholder="Search query">
-                        <button type="submit">Go</button>
-                    </form>
-                </nav>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active"><b>Home</b></a></li>
+                    <li><a href="#"><b>Our Team</b></a></li>
+                    <li><a href="#"><b>Projects</b></a></li>
+                    <li><a href="#"><b>Blogs</b></a></li>
+                </ul>
+                <form action="search" method="get" class="search-form">
+                    <input type="text" name="search" placeholder="Search query">
+                    <button type="submit">Go</button>
+                </form>
+            </nav>
         </header>
         <main>
             <section class="featured-article">
                 <h2>The Trouble with Bears</h2>
                 <p>By Evan Wild</p>
-                <p>Tell lumbering, angry, dangerous. The real live bears of this world are proud, independent creatures, self-serving and always on the hunt for food.</p>
+                <p>Lumbering, angry, dangerous—the real live bears of this world are proud, independent creatures, self-serving and always on the hunt for food.</p>
                 <p>So what are bears really like, and why does the world's media portray them with such a skewed vision? In this article, we try to answer these questions and give you a real insight into the life of bears.</p>
             </section>
             <section class="types-of-bears">
                 <h1>Types of Bears</h1>
-                <p>Bears come in two varieties - large and medium. You don't get small bears. If you have seen small bears, then it was probably a baby bear (cub) from another species.</p>
+                <p>Bears come in two varieties—large and medium. You don't get small bears. If you have seen small bears, then it was probably a baby bear (cub) from another species.</p>
             </section>
         </main>
         <aside class="side-bar">
@@ -45,6 +45,72 @@
             </ul>
         </aside>
     </div>
+
+    <section class="animals">
+        <div class="animal-section lion">
+            <h1 id="loo">LION</h1>
+            <p>- Known as the "king of the jungle"</p>
+            <p>- Large carnivorous mammal with a short, tawny or golden coat</p>
+            <p>- Lives in prides, typically consisting of several females, their cubs, and one or more males</p>
+            <p>- Found in savannas and grasslands of Africa and India</p>
+            <p>- Known for their majestic manes and powerful roars</p>
+        </div>
+        <div class="animal-section domestic">
+            <h1 id="dom">DOG</h1>
+            <p>- Domesticated carnivorous mammal, descended from wolves</p>
+            <p>- Highly social and loyal, often living with human families</p>
+            <p>- Various breeds, ranging from small (Chihuahua) to large (Great Dane)</p>
+            <p>- Found worldwide, in diverse environments</p>
+            <p>- Known for their intelligence, trainability, and affectionate nature</p>
+        </div>
+        <div class="animal-section gorilla">
+            <h1 id="gorri">GORILLA</h1>
+            <p>- Largest primate species, divided into two main types: Eastern and Western Gorillas</p>
+            <p>- Herbivorous, with a diet consisting mainly of leaves, shoots, and stems</p>
+            <p>- Lives in small groups, led by a dominant male (silverback)</p>
+            <p>- Found in forests and mountains of Central Africa</p>
+            <p>- Known for their intelligence, strength, and gentle nature</p>
+        </div>
+        <div class="animal-section elephant">
+            <h1 id="eleph">ELEPHANT</h1>
+            <p>- Largest land animal, with African and Asian species</p>
+            <p>- Herbivorous, with a diet consisting mainly of grasses, leaves, and fruits</p>
+            <p>- Lives in large matriarchal herds, led by the oldest female</p>
+            <p>- Found in savannas, forests, and deserts of Africa and Asia</p>
+            <p>- Known for their exceptional memory, social behavior, and distinctive trunks</p>
+        </div>
+        <div class="animal-section tiger">
+            <h1 id="Git">TIGER</h1>
+            <p>- Largest cat species, with six subspecies</p>
+            <p>- Carnivorous, with a diet consisting mainly of large ungulates</p>
+            <p>- Found in forests and grasslands of Asia</p>
+            <p>- Solitary animals, with males occupying large territories</p>
+            <p>- Known for their distinctive orange and black stripes, and endangered status</p>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Wildlife Website. All rights reserved.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
